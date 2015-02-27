@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "NWGuideHelper.h"
 @interface ViewController ()
+
+@property (nonatomic, strong) NWGuideHelper *helper;
 
 @end
 
@@ -17,6 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+   
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [[NWGuideHelper sharedInstance] showWithWithImage:[UIImage imageNamed:@"wenzi"] identifierString:@"first show4"  pressedHandler:^{
+        
+        NSLog(@"pressed me");
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

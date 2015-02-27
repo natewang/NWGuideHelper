@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43CB61631AA04F76006F1C0E /* NWGuideHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CB61621AA04F76006F1C0E /* NWGuideHelper.m */; };
+		43CB61651AA05203006F1C0E /* wenzi.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CB61641AA05203006F1C0E /* wenzi.png */; };
 		43E0526E1A79EB6A0069C67A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0526D1A79EB6A0069C67A /* main.m */; };
 		43E052711A79EB6A0069C67A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E052701A79EB6A0069C67A /* AppDelegate.m */; };
 		43E052741A79EB6A0069C67A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E052731A79EB6A0069C67A /* ViewController.m */; };
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43CB61611AA04F76006F1C0E /* NWGuideHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWGuideHelper.h; sourceTree = "<group>"; };
+		43CB61621AA04F76006F1C0E /* NWGuideHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWGuideHelper.m; sourceTree = "<group>"; };
+		43CB61641AA05203006F1C0E /* wenzi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wenzi.png; sourceTree = "<group>"; };
 		43E052681A79EB6A0069C67A /* NWGuideHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWGuideHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E0526C1A79EB6A0069C67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43E0526D1A79EB6A0069C67A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43CB61601AA04F76006F1C0E /* NWGuideHelper */ = {
+			isa = PBXGroup;
+			children = (
+				43CB61611AA04F76006F1C0E /* NWGuideHelper.h */,
+				43CB61621AA04F76006F1C0E /* NWGuideHelper.m */,
+			);
+			path = NWGuideHelper;
+			sourceTree = "<group>";
+		};
 		43E0525F1A79EB6A0069C67A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +95,7 @@
 		43E0526A1A79EB6A0069C67A /* NWGuideHelper */ = {
 			isa = PBXGroup;
 			children = (
+				43CB61601AA04F76006F1C0E /* NWGuideHelper */,
 				43E0526F1A79EB6A0069C67A /* AppDelegate.h */,
 				43E052701A79EB6A0069C67A /* AppDelegate.m */,
 				43E052721A79EB6A0069C67A /* ViewController.h */,
@@ -96,6 +111,7 @@
 		43E0526B1A79EB6A0069C67A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43CB61641AA05203006F1C0E /* wenzi.png */,
 				43E0526C1A79EB6A0069C67A /* Info.plist */,
 				43E0526D1A79EB6A0069C67A /* main.m */,
 			);
@@ -202,6 +218,7 @@
 				43E052771A79EB6A0069C67A /* Main.storyboard in Resources */,
 				43E0527C1A79EB6A0069C67A /* LaunchScreen.xib in Resources */,
 				43E052791A79EB6A0069C67A /* Images.xcassets in Resources */,
+				43CB61651AA05203006F1C0E /* wenzi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E052741A79EB6A0069C67A /* ViewController.m in Sources */,
+				43CB61631AA04F76006F1C0E /* NWGuideHelper.m in Sources */,
 				43E052711A79EB6A0069C67A /* AppDelegate.m in Sources */,
 				43E0526E1A79EB6A0069C67A /* main.m in Sources */,
 			);
@@ -412,6 +430,7 @@
 				43E0528D1A79EB6A0069C67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43E0528E1A79EB6A0069C67A /* Build configuration list for PBXNativeTarget "NWGuideHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				43E052901A79EB6A0069C67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
